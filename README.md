@@ -15,8 +15,8 @@ This build helper adds a second [`rate-limiting`](https://docs.konghq.com/hub/ko
 Firstly, **adjust your target Kong version in the first line of the [Dockerfile](./add-second-rate-limiting-plugin/Dockerfile)**:
 
 ```Dockerfile
-ARG KONG_VERSION=3.3.1.0
-ARG PLUGIN_VERSION_TAG=3.3.1
+ARG KONG_VERSION="3.3.1.0"
+ARG PLUGIN_VERSION_TAG="3.3.1"
 ```
 
 ⚠️ **The `PLUGIN_VERSION_TAG` should match the major.minor.patch version as the `KONG_VERSION`** ⚠️
