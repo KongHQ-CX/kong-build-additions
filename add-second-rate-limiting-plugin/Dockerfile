@@ -1,7 +1,7 @@
 ARG KONG_VERSION="3.3.1.0"
 
 FROM kong/kong-gateway:${KONG_VERSION}-ubuntu as builder
-ARG PLUGIN_VERSION_TAG=3.3.1
+ARG PLUGIN_VERSION_TAG="3.3.1"
 
 USER root
 RUN apt update && \
